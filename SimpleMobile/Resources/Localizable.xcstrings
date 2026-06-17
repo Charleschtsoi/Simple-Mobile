@@ -1,0 +1,396 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add Slot" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "新增項目" } }
+      }
+    },
+    "Add the widget to your Home Screen to launch apps with a tap." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "將小工具加入主畫面，點按即可開啟應用程式。" } }
+      }
+    },
+    "Appearance" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "外觀" } }
+      }
+    },
+    "App Slots" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "應用程式項目" } }
+      }
+    },
+    "Background" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "背景" } }
+      }
+    },
+    "Background color" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "背景顏色" } }
+      }
+    },
+    "Black" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "黑色" } }
+      }
+    },
+    "Bold" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "粗體" } }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "取消" } }
+      }
+    },
+    "Center" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "置中" } }
+      }
+    },
+    "Color" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "顏色" } }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "繼續" } }
+      }
+    },
+    "Could not save wallpaper. Try again." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "無法儲存桌布，請再試一次。" } }
+      }
+    },
+    "Custom" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "自訂" } }
+      }
+    },
+    "Deep Grey" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "深灰" } }
+      }
+    },
+    "Display" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "顯示" } }
+      }
+    },
+    "Edit Slot" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "編輯項目" } }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "英文" } }
+      }
+    },
+    "Enter a URL scheme or shortcut name" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "請輸入 URL 方案或捷徑名稱" } }
+      }
+    },
+    "Font Weight" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "字重" } }
+      }
+    },
+    "Get Started" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "開始使用" } }
+      }
+    },
+    "Go Minimal" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "極簡生活" } }
+      }
+    },
+    "Label" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "標籤" } }
+      }
+    },
+    "Label is required" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "必須填寫標籤" } }
+      }
+    },
+    "Label Language" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "標籤語言" } }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "語言" } }
+      }
+    },
+    "Launch" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "啟動" } }
+      }
+    },
+    "Leading" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "靠左" } }
+      }
+    },
+    "Light" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "細體" } }
+      }
+    },
+    "Long labels may appear smaller on the widget" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "標籤過長可能會在小工具上縮小顯示" } }
+      }
+    },
+    "Long-press your Home Screen" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "長按主畫面" } }
+      }
+    },
+    "No link configured" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "尚未設定連結" } }
+      }
+    },
+    "Open %@" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "開啟 %@" } }
+      }
+    },
+    "Open app to configure" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "開啟應用程式以設定" } }
+      }
+    },
+    "Photo access denied. Enable in Settings." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "相片權限被拒絕，請在設定中啟用。" } }
+      }
+    },
+    "Preview" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "預覽" } }
+      }
+    },
+    "Replace colorful icons with clean text labels. Tap to launch." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "以簡潔文字取代彩色圖示，點按即可啟動。" } }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "儲存" } }
+      }
+    },
+    "Save to Photos" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "儲存至相片" } }
+      }
+    },
+    "Saved to Photos" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "已儲存至相片" } }
+      }
+    },
+    "Search for 極簡手機 and add Medium or Large" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "搜尋「極簡手機」並加入中型或大型小工具" } }
+      }
+    },
+    "Set a solid wallpaper and move other apps to App Library for a distraction-free screen." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "設定純色桌布，並將其他應用程式移至 App 資料庫，打造無干擾畫面。" } }
+      }
+    },
+    "Shortcut Name (optional)" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "捷徑名稱（選填）" } }
+      }
+    },
+    "Shortcut: %@" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "捷徑：%@" } }
+      }
+    },
+    "Size" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "尺寸" } }
+      }
+    },
+    "Slots" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "項目" } }
+      }
+    },
+    "Tap Edit, then Add Widget" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "點按「編輯」，然後「加入小工具」" } }
+      }
+    },
+    "Test Link" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "測試連結" } }
+      }
+    },
+    "Text Alignment" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "文字對齊" } }
+      }
+    },
+    "Trailing" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "靠右" } }
+      }
+    },
+    "Typography" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "字體" } }
+      }
+    },
+    "URL Scheme" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "URL 方案" } }
+      }
+    },
+    "URL scheme must include ://" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "URL 方案必須包含 ://" } }
+      }
+    },
+    "Universal Square" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "通用正方形" } }
+      }
+    },
+    "Wallpaper" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "桌布" } }
+      }
+    },
+    "Wallpaper preview" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "桌布預覽" } }
+      }
+    },
+    "Wallpaper Size" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "桌布尺寸" } }
+      }
+    },
+    "White" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "白色" } }
+      }
+    },
+    "Your phone, simplified." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "你的手機，從簡。" } }
+      }
+    },
+    "iPhone 15 Pro Max" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "iPhone 15 Pro Max" } }
+      }
+    },
+    "繁體中文" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Traditional Chinese" } }
+      }
+    },
+    "Add the Widget" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "加入小工具" } }
+      }
+    },
+    "Apps like this have no public URL scheme. Create a Shortcut once, then enter its exact name below." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "此類應用程式沒有公開 URL 方案。請先建立捷徑一次，然後在下方輸入完全相同的名稱。" } }
+      }
+    },
+    "Create a new shortcut with the Open App action, then choose %@" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "建立新捷徑，加入「開啟 App」動作，然後選擇 %@" } }
+      }
+    },
+    "Hong Kong Apps" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "香港應用程式" } }
+      }
+    },
+    "Launch Mode" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "啟動方式" } }
+      }
+    },
+    "Name the shortcut exactly: %@" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "將捷徑命名為：%@" } }
+      }
+    },
+    "Open the Shortcuts app" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "開啟「捷徑」App" } }
+      }
+    },
+    "Preset: %@" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "預設：%@" } }
+      }
+    },
+    "Return here and enter that name in Shortcut Name, then tap Test Link" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "返回此處，在「捷徑名稱」輸入該名稱，然後點按「測試連結」" } }
+      }
+    },
+    "Shortcut Only" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "僅限捷徑" } }
+      }
+    },
+    "Shortcut Setup Guide" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "捷徑設定指南" } }
+      }
+    },
+    "Shortcut Name" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "捷徑名稱" } }
+      }
+    },
+    "Shortcut name is required for Shortcut Only mode" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "「僅限捷徑」模式必須填寫捷徑名稱" } }
+      }
+    },
+    "Shortcut not configured" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "尚未設定捷徑" } }
+      }
+    },
+    "Tap a preset to auto-fill. Shortcut-only apps need a one-time Shortcuts setup." : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "點按預設項目自動填寫。僅限捷徑的應用程式需先完成一次捷徑設定。" } }
+      }
+    },
+    "your app" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "你的應用程式" } }
+      }
+    },
+    "Open App" : {
+      "localizations" : {
+        "zh-HK" : { "stringUnit" : { "state" : "translated", "value" : "開啟 App" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000262C4D118409D8A1C2EA2 /* SlotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D00B861BB2F9E7A2656FBF /* SlotListView.swift */; };
+		05C730408D4C90D499359184 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137F3E5246CF31C44E1974D /* Color+Hex.swift */; };
+		081F12B21545111336828E24 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A7C11BDEA702C47E90453 /* SharedStore.swift */; };
+		0BE7F36D1EFEEC34D96E28F3 /* SimpleWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 583E8A2D346FCA441122B7A0 /* SimpleWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0EDF550D6F97691111992EA4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCD09B0D114AAA2D08D55A /* OnboardingView.swift */; };
+		1015B92F44D2A2F41C7E09B2 /* SlotListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355ED5172B0E8CDB10B049B /* SlotListViewModel.swift */; };
+		1B8111BA04006566F12FFCE9 /* WidgetPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B482827782B6696AEF670F8 /* WidgetPreviewView.swift */; };
+		206A817EE68B20A724D23FA7 /* AppSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB407763CC7648B068C227F /* AppSlot.swift */; };
+		276EB4D5D3EC3AFADBFD62CA /* HKAppPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195F6BA63846B76D813141A /* HKAppPreset.swift */; };
+		2A1EE3F48FE1E493C1B3CC3B /* LaunchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665E5824898333A510CC3B09 /* LaunchMode.swift */; };
+		350DEE8B73D73CA50272CD28 /* WallpaperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A52287E0B6AF8BDDAF78A8 /* WallpaperViewModel.swift */; };
+		3A6F7BF31FD1F0A9172A5182 /* WallpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2F12524E1CA6C2A2EF077 /* WallpaperView.swift */; };
+		3FFD203C5E442677A8A78173 /* ShortcutSetupGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9189C7459DC8B5FD3C530CD /* ShortcutSetupGuideView.swift */; };
+		55CD0BD1CBCFF3E31878D17E /* SimpleWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0B21B2B4AC624A35DBF16D /* SimpleWidgetEntryView.swift */; };
+		59B957ADBF83AA602707EC29 /* URLSchemeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49789AC6E70851AD9119F385 /* URLSchemeValidator.swift */; };
+		5A957125B06C5E408A52DA5B /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD190A0D7A799F563691990 /* HapticManager.swift */; };
+		5B1AE43FA9FF4C3D509A1148 /* WidgetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1E82534DB3B38FEB099AE /* WidgetConfig.swift */; };
+		6180AAA30D3BFE882D8A0EAE /* SlotRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A3644CA752D22C4B1E5F8 /* SlotRowView.swift */; };
+		64D84FEDF9DD11136C6CCB8D /* AppLabelDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547D2B2B8F63A6E0242C6A9 /* AppLabelDictionary.swift */; };
+		81003D8683F4821543022490 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137F3E5246CF31C44E1974D /* Color+Hex.swift */; };
+		878E29709B44A20185766811 /* AppSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB407763CC7648B068C227F /* AppSlot.swift */; };
+		91AD7867968840D087B989FF /* AppLabelDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547D2B2B8F63A6E0242C6A9 /* AppLabelDictionary.swift */; };
+		951D67482BE8F9D7818307E8 /* WidgetConfig+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5C30D1519F6E8C3DF60A7 /* WidgetConfig+Display.swift */; };
+		A560E111F7515BBC76C8663D /* SimpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CF8D62F0BEB07AD14E588 /* SimpleWidget.swift */; };
+		AAA9CB4083C786C7189C21B3 /* SlotEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0C03CFE462E006CDD859A /* SlotEditorView.swift */; };
+		AB4206BCF38D2ACC3CA30472 /* ConfigurationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BED89BA68F8D49D57D0AE1 /* ConfigurationIntent.swift */; };
+		B0FBB38E092A3ADF22C25570 /* SimpleTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2023C19F1CD3509C0A27A4 /* SimpleTimelineProvider.swift */; };
+		B2D2DCE3A30F80355FFB5C63 /* WidgetConfig+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5C30D1519F6E8C3DF60A7 /* WidgetConfig+Display.swift */; };
+		C6EB8A1FF6ADFCC3B7208DF8 /* LaunchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665E5824898333A510CC3B09 /* LaunchMode.swift */; };
+		C840B46F15547809974D133A /* URLSchemeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49789AC6E70851AD9119F385 /* URLSchemeValidator.swift */; };
+		CE5A15E5B3E720397C683E2D /* HKAppPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195F6BA63846B76D813141A /* HKAppPreset.swift */; };
+		DD9323699B04A6947481FCB9 /* SimpleMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F7CD851438E46C3265548 /* SimpleMobileApp.swift */; };
+		DF97B56251E5DBB0D5799470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B421F62D073366C8FA6926B0 /* Assets.xcassets */; };
+		E2A8FCCA8301425E65E63352 /* AppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9EC1893DFFD427135F588 /* AppearanceSettingsView.swift */; };
+		EAF522DC4779F4D6C3227022 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A7C11BDEA702C47E90453 /* SharedStore.swift */; };
+		EC4B0CF39FBDD93973145B5B /* WidgetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1E82534DB3B38FEB099AE /* WidgetConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D7738B96D1A34E38A56E0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEB84DA421C91C70B2A5CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E610AA655E1384DC3C6632;
+			remoteInfo = SimpleWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46BDE51D4E8A8AD3D09B9A1C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0BE7F36D1EFEEC34D96E28F3 /* SimpleWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04F0C03CFE462E006CDD859A /* SlotEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotEditorView.swift; sourceTree = "<group>"; };
+		1355ED5172B0E8CDB10B049B /* SlotListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotListViewModel.swift; sourceTree = "<group>"; };
+		1AE9EC1893DFFD427135F588 /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
+		27BED89BA68F8D49D57D0AE1 /* ConfigurationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationIntent.swift; sourceTree = "<group>"; };
+		2E8D062E4CD7D244962AAE66 /* SimpleMobile.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SimpleMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2023C19F1CD3509C0A27A4 /* SimpleTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimelineProvider.swift; sourceTree = "<group>"; };
+		3EB407763CC7648B068C227F /* AppSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSlot.swift; sourceTree = "<group>"; };
+		49789AC6E70851AD9119F385 /* URLSchemeValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeValidator.swift; sourceTree = "<group>"; };
+		583E8A2D346FCA441122B7A0 /* SimpleWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SimpleWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE294EF99B7BA9211146F83 /* SimpleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleWidget.entitlements; sourceTree = "<group>"; };
+		665E5824898333A510CC3B09 /* LaunchMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchMode.swift; sourceTree = "<group>"; };
+		6AA5C30D1519F6E8C3DF60A7 /* WidgetConfig+Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WidgetConfig+Display.swift"; sourceTree = "<group>"; };
+		7195F6BA63846B76D813141A /* HKAppPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKAppPreset.swift; sourceTree = "<group>"; };
+		72BCD09B0D114AAA2D08D55A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8B9F7CD851438E46C3265548 /* SimpleMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMobileApp.swift; sourceTree = "<group>"; };
+		9547D2B2B8F63A6E0242C6A9 /* AppLabelDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabelDictionary.swift; sourceTree = "<group>"; };
+		9B482827782B6696AEF670F8 /* WidgetPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPreviewView.swift; sourceTree = "<group>"; };
+		AA0B21B2B4AC624A35DBF16D /* SimpleWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidgetEntryView.swift; sourceTree = "<group>"; };
+		B137F3E5246CF31C44E1974D /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		B421F62D073366C8FA6926B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D00B861BB2F9E7A2656FBF /* SlotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotListView.swift; sourceTree = "<group>"; };
+		C0E2F12524E1CA6C2A2EF077 /* WallpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperView.swift; sourceTree = "<group>"; };
+		C92CF8D62F0BEB07AD14E588 /* SimpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidget.swift; sourceTree = "<group>"; };
+		CD9A7C11BDEA702C47E90453 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		DDD190A0D7A799F563691990 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		E0A52287E0B6AF8BDDAF78A8 /* WallpaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewModel.swift; sourceTree = "<group>"; };
+		ECA1E82534DB3B38FEB099AE /* WidgetConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetConfig.swift; sourceTree = "<group>"; };
+		F700B65B2212F4563E310A88 /* SimpleMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleMobile.entitlements; sourceTree = "<group>"; };
+		F9189C7459DC8B5FD3C530CD /* ShortcutSetupGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutSetupGuideView.swift; sourceTree = "<group>"; };
+		FF2A3644CA752D22C4B1E5F8 /* SlotRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08B29D7732647AFFFA78ED47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D062E4CD7D244962AAE66 /* SimpleMobile.app */,
+				583E8A2D346FCA441122B7A0 /* SimpleWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1399AF653A84F7DC399EA2C7 /* SimpleWidget */ = {
+			isa = PBXGroup;
+			children = (
+				27BED89BA68F8D49D57D0AE1 /* ConfigurationIntent.swift */,
+				2F2023C19F1CD3509C0A27A4 /* SimpleTimelineProvider.swift */,
+				5CE294EF99B7BA9211146F83 /* SimpleWidget.entitlements */,
+				C92CF8D62F0BEB07AD14E588 /* SimpleWidget.swift */,
+				AA0B21B2B4AC624A35DBF16D /* SimpleWidgetEntryView.swift */,
+			);
+			path = SimpleWidget;
+			sourceTree = "<group>";
+		};
+		1D3267501D95DB9A68F59182 = {
+			isa = PBXGroup;
+			children = (
+				6A685A5FE6D2E3CFC26B77D4 /* SimpleMobile */,
+				1399AF653A84F7DC399EA2C7 /* SimpleWidget */,
+				08B29D7732647AFFFA78ED47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDBBF263FC353E04751E10D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9547D2B2B8F63A6E0242C6A9 /* AppLabelDictionary.swift */,
+				B137F3E5246CF31C44E1974D /* Color+Hex.swift */,
+				DDD190A0D7A799F563691990 /* HapticManager.swift */,
+				7195F6BA63846B76D813141A /* HKAppPreset.swift */,
+				49789AC6E70851AD9119F385 /* URLSchemeValidator.swift */,
+				6AA5C30D1519F6E8C3DF60A7 /* WidgetConfig+Display.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6A685A5FE6D2E3CFC26B77D4 /* SimpleMobile */ = {
+			isa = PBXGroup;
+			children = (
+				B421F62D073366C8FA6926B0 /* Assets.xcassets */,
+				F700B65B2212F4563E310A88 /* SimpleMobile.entitlements */,
+				8B9F7CD851438E46C3265548 /* SimpleMobileApp.swift */,
+				95356CCCFEBA726BB72604C8 /* Models */,
+				3CDBBF263FC353E04751E10D /* Utilities */,
+				F61AB594CF7A7459B5F3E250 /* ViewModels */,
+				E98A58B26ECDD53269B3F87E /* Views */,
+			);
+			path = SimpleMobile;
+			sourceTree = "<group>";
+		};
+		6B1DADC081E24958318987F8 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				1AE9EC1893DFFD427135F588 /* AppearanceSettingsView.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		8668F03DA485861A0A87D94C /* SlotList */ = {
+			isa = PBXGroup;
+			children = (
+				B6D00B861BB2F9E7A2656FBF /* SlotListView.swift */,
+				FF2A3644CA752D22C4B1E5F8 /* SlotRowView.swift */,
+				9B482827782B6696AEF670F8 /* WidgetPreviewView.swift */,
+			);
+			path = SlotList;
+			sourceTree = "<group>";
+		};
+		95356CCCFEBA726BB72604C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EB407763CC7648B068C227F /* AppSlot.swift */,
+				665E5824898333A510CC3B09 /* LaunchMode.swift */,
+				CD9A7C11BDEA702C47E90453 /* SharedStore.swift */,
+				ECA1E82534DB3B38FEB099AE /* WidgetConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF1833F2C8DE454172B6D4BC /* SlotEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F9189C7459DC8B5FD3C530CD /* ShortcutSetupGuideView.swift */,
+				04F0C03CFE462E006CDD859A /* SlotEditorView.swift */,
+			);
+			path = SlotEditor;
+			sourceTree = "<group>";
+		};
+		D7A8123A6C2259BD8CDEC9B1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				72BCD09B0D114AAA2D08D55A /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E98A58B26ECDD53269B3F87E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B1DADC081E24958318987F8 /* Appearance */,
+				D7A8123A6C2259BD8CDEC9B1 /* Onboarding */,
+				CF1833F2C8DE454172B6D4BC /* SlotEditor */,
+				8668F03DA485861A0A87D94C /* SlotList */,
+				FFBA94E3514CA96072D1A118 /* Wallpaper */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F61AB594CF7A7459B5F3E250 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1355ED5172B0E8CDB10B049B /* SlotListViewModel.swift */,
+				E0A52287E0B6AF8BDDAF78A8 /* WallpaperViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FFBA94E3514CA96072D1A118 /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				C0E2F12524E1CA6C2A2EF077 /* WallpaperView.swift */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E610AA655E1384DC3C6632 /* SimpleWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF733625F7F03B06ECDF2DF /* Build configuration list for PBXNativeTarget "SimpleWidget" */;
+			buildPhases = (
+				7DCE91F30C40B3A49B1FEE40 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWidget;
+			productName = SimpleWidget;
+			productReference = 583E8A2D346FCA441122B7A0 /* SimpleWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E410420D1DE8B68B715E2650 /* SimpleMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E8616E3D22E8763608B5A /* Build configuration list for PBXNativeTarget "SimpleMobile" */;
+			buildPhases = (
+				F70BDDB1F697E75C587BCA2A /* Sources */,
+				721917C53D1C6441EFA987D2 /* Resources */,
+				46BDE51D4E8A8AD3D09B9A1C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D46B18DA6BB49D1966EB8F2 /* PBXTargetDependency */,
+			);
+			name = SimpleMobile;
+			productName = SimpleMobile;
+			productReference = 2E8D062E4CD7D244962AAE66 /* SimpleMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CEB84DA421C91C70B2A5CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					65E610AA655E1384DC3C6632 = {
+						DevelopmentTeam = BKJ456P59V;
+						ProvisioningStyle = Automatic;
+					};
+					E410420D1DE8B68B715E2650 = {
+						DevelopmentTeam = BKJ456P59V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBCDA7FA5560F9E2493C4AE7 /* Build configuration list for PBXProject "SimpleMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1D3267501D95DB9A68F59182;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E410420D1DE8B68B715E2650 /* SimpleMobile */,
+				65E610AA655E1384DC3C6632 /* SimpleWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		721917C53D1C6441EFA987D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF97B56251E5DBB0D5799470 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DCE91F30C40B3A49B1FEE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AD7867968840D087B989FF /* AppLabelDictionary.swift in Sources */,
+				206A817EE68B20A724D23FA7 /* AppSlot.swift in Sources */,
+				81003D8683F4821543022490 /* Color+Hex.swift in Sources */,
+				AB4206BCF38D2ACC3CA30472 /* ConfigurationIntent.swift in Sources */,
+				276EB4D5D3EC3AFADBFD62CA /* HKAppPreset.swift in Sources */,
+				2A1EE3F48FE1E493C1B3CC3B /* LaunchMode.swift in Sources */,
+				EAF522DC4779F4D6C3227022 /* SharedStore.swift in Sources */,
+				B0FBB38E092A3ADF22C25570 /* SimpleTimelineProvider.swift in Sources */,
+				A560E111F7515BBC76C8663D /* SimpleWidget.swift in Sources */,
+				55CD0BD1CBCFF3E31878D17E /* SimpleWidgetEntryView.swift in Sources */,
+				C840B46F15547809974D133A /* URLSchemeValidator.swift in Sources */,
+				B2D2DCE3A30F80355FFB5C63 /* WidgetConfig+Display.swift in Sources */,
+				EC4B0CF39FBDD93973145B5B /* WidgetConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70BDDB1F697E75C587BCA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D84FEDF9DD11136C6CCB8D /* AppLabelDictionary.swift in Sources */,
+				878E29709B44A20185766811 /* AppSlot.swift in Sources */,
+				E2A8FCCA8301425E65E63352 /* AppearanceSettingsView.swift in Sources */,
+				05C730408D4C90D499359184 /* Color+Hex.swift in Sources */,
+				CE5A15E5B3E720397C683E2D /* HKAppPreset.swift in Sources */,
+				5A957125B06C5E408A52DA5B /* HapticManager.swift in Sources */,
+				C6EB8A1FF6ADFCC3B7208DF8 /* LaunchMode.swift in Sources */,
+				0EDF550D6F97691111992EA4 /* OnboardingView.swift in Sources */,
+				081F12B21545111336828E24 /* SharedStore.swift in Sources */,
+				3FFD203C5E442677A8A78173 /* ShortcutSetupGuideView.swift in Sources */,
+				DD9323699B04A6947481FCB9 /* SimpleMobileApp.swift in Sources */,
+				AAA9CB4083C786C7189C21B3 /* SlotEditorView.swift in Sources */,
+				000262C4D118409D8A1C2EA2 /* SlotListView.swift in Sources */,
+				1015B92F44D2A2F41C7E09B2 /* SlotListViewModel.swift in Sources */,
+				6180AAA30D3BFE882D8A0EAE /* SlotRowView.swift in Sources */,
+				59B957ADBF83AA602707EC29 /* URLSchemeValidator.swift in Sources */,
+				3A6F7BF31FD1F0A9172A5182 /* WallpaperView.swift in Sources */,
+				350DEE8B73D73CA50272CD28 /* WallpaperViewModel.swift in Sources */,
+				951D67482BE8F9D7818307E8 /* WidgetConfig+Display.swift in Sources */,
+				5B1AE43FA9FF4C3D509A1148 /* WidgetConfig.swift in Sources */,
+				1B8111BA04006566F12FFCE9 /* WidgetPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D46B18DA6BB49D1966EB8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E610AA655E1384DC3C6632 /* SimpleWidget */;
+			targetProxy = 5D7738B96D1A34E38A56E0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C9D694E16E12BDEF9A708B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SimpleWidget/SimpleWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SimpleWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlescht.simplemobile.SimpleWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		27D8EF20B4A085F311096598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SimpleWidget/SimpleWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SimpleWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlescht.simplemobile.SimpleWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6087CFF54F870273192B9645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleMobile/SimpleMobile.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "極簡手機";
+				INFOPLIST_KEY_LSApplicationQueriesSchemes = (
+					whatsapp,
+					barcelona,
+					sgnl,
+					spotify,
+					payme,
+					alipayhk,
+					openrice,
+					foodpanda,
+					deliveroo,
+					hktvmall,
+					citymapper,
+					shortcuts,
+				);
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save solid-color wallpapers to your Photos library for a minimalist home screen.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlescht.simplemobile;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7F5E44A986DC361AC75A022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BKJ456P59V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		9981FFCC77287E1D64113266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BKJ456P59V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		FD4BA9B60304CCDFFD9A2024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleMobile/SimpleMobile.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "極簡手機";
+				INFOPLIST_KEY_LSApplicationQueriesSchemes = (
+					whatsapp,
+					barcelona,
+					sgnl,
+					spotify,
+					payme,
+					alipayhk,
+					openrice,
+					foodpanda,
+					deliveroo,
+					hktvmall,
+					citymapper,
+					shortcuts,
+				);
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save solid-color wallpapers to your Photos library for a minimalist home screen.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlescht.simplemobile;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2E8616E3D22E8763608B5A /* Build configuration list for PBXNativeTarget "SimpleMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4BA9B60304CCDFFD9A2024 /* Debug */,
+				6087CFF54F870273192B9645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBCDA7FA5560F9E2493C4AE7 /* Build configuration list for PBXProject "SimpleMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5E44A986DC361AC75A022C /* Debug */,
+				9981FFCC77287E1D64113266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBF733625F7F03B06ECDF2DF /* Build configuration list for PBXNativeTarget "SimpleWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D8EF20B4A085F311096598 /* Debug */,
+				1C9D694E16E12BDEF9A708B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CEB84DA421C91C70B2A5CA0 /* Project object */;
+}
