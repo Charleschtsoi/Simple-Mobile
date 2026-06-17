@@ -10,3 +10,10 @@ xcuserdata/
 
 # macOS
 .DS_Store
+
+# Secrets & local config (never commit)
+.env
+.env.local
+secrets/
+AuthKey_*.p8
+*.p8
